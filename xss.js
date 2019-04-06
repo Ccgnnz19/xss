@@ -1,4 +1,4 @@
-var target = 'play.google.com';
+var target = 'mc-security.eu';
 var thread_count = 1;
 var scan_counter = 0;
 var resp_size_counter = 0;
