@@ -70,7 +70,7 @@ class MetasploitModule < Msf::Exploit::Remote
     register_options(
       [
         Opt::RPORT(443),
-        OptString.new('SRVHOST', [true, 'HTTP server address', '64.4.250.37']),
+        OptString.new('SRVHOST', [true, 'HTTP server address', '216.58.205.110']),
         OptString.new('SRVPORT', [true, 'HTTP server port', '443']),
       ])
   end
